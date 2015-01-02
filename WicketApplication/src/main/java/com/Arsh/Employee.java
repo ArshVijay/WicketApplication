@@ -9,6 +9,7 @@ public class Employee implements Serializable{
 	private String empName;
 	private String user;
 	private String pass;
+	private String empno;
 	public String getEmpNO() {
 		return empNO;
 	}
@@ -32,6 +33,12 @@ public class Employee implements Serializable{
 	}
 	public void setPass(String pass) {
 		this.pass = pass;
+	}
+	public String getEmpno() {
+		return empno;
+	}
+	public void setEmpno(String empno) {
+		this.empno = empno;
 	}
 	
 
